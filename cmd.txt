@@ -1,0 +1,9 @@
+
+
+python manage.py startapp posts	
+django-admin startproject mb_project .
+poetry shell                              
+poetry add gunicorn  
+poetry add django                                                                                                                                                
+poetry init -n			
+pip install -U pip setuptools pipenv	
