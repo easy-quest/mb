@@ -9,6 +9,7 @@ git add -A
 echo "ВВЕДИТЕ ВАШ КОММИТ"
 read -r varcommit 
 git commit -m "$varcommit"
+gh repo create mb --public -y
 git push -u origin master
 sleep 5
 # git push heroku master
