@@ -12,6 +12,6 @@ git commit -m "$varcommit"
 gh repo create mb --public -y
 git push -u origin master
 sleep 5
-# git push heroku master
-# heroku ps:scale web=1
-# heroku open
+git push heroku master
+heroku ps:scale web=1
+heroku open
